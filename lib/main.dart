@@ -12,13 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-    );
-  }
-}
-
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
+      home:Scaffold(
     backgroundColor: Colors.cyan,
     body: Center(
       child: Column(
@@ -100,5 +94,8 @@ Widget build(BuildContext context) {
         ],
       ),
     ),
-  );
+  ),
+    );
+  }
 }
+
